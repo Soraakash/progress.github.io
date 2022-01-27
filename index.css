@@ -245,9 +245,22 @@ nav .closemenu {
 }
 
 @media(max-width:700px){
+  .box-image{
+        height: 130px;
+        width: 200px;
+    }
+    .box-image img{
+        width: 100%;
+        height: 100%;
+    }
+         .box img {
+            width: 230px;
+            height: 130px;
+            padding: 10px 5px;
+  }
     
         .box-c {
-            width: 94%;
+            width: 100%;
             padding: 10px 10px;
             padding-bottom: 20px;
             height: 25rem;
